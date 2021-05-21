@@ -1,0 +1,44 @@
+:root {
+    font-family: 'Anton', sans-serif;
+    --main-color: red;
+    --accent-color: blue;
+}
+
+h1 { 
+    color: goldenrod;
+}
+
+.logo {
+    color: var(--main-color);
+    font-size: 48px;
+}
+
+img {
+    max-width: 400px;
+}
+
+article.product p {
+    font-family:  'Anton', sans-serif;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: var(--accent-color);
+}
+
+ 
+header#home {
+    margin-top: 20px;
+}
+
+#home {
+    margin-top: 200px;
+}
+
+.menu a {
+    display:block;
+}
