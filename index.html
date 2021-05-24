@@ -29,14 +29,15 @@
                     <input class="search__form-input" type="text" name="s" value="" placeholder="Search...">
                     <button>Ok</button>
                     </div>
-                    <section>
-                        <h1>Welcom to<br>RavaFruct</h1>
-                        <p class="subheading">Best RavaFrukt shop in the Word!</p>
-                        <hr>
-                    </section>
             </nav>
         </header>
         <main>
+            <section class="banner";>
+                <h1>Welcom to<br>RavaFruct</h1>
+                <p class="subheading">Best RavaFrukt shop in the Word!</p>
+                <button>Buy now</button>
+                <hr>
+            </section>
             <h2 id="Products">Products</h2>
             <div class="products-list">
                 <article class="product">
@@ -57,7 +58,7 @@
                         <button>Buy</button>
                     </div>
                 </article>
-                <article>
+                <article class="product">
                     <h3>Banana</h3>
                     <img src="img/1402862895_banana2.jpg" alt="banana">
                     <p>text</p>
@@ -75,7 +76,7 @@
                         <button>Buy</button>
                     </div>
                 </article>
-                <article class="product>
+                <article class="product">
                     <h3>Apple Golden</h3>
                     <img src="img/golden_delicious_500.png" alt="Apple Golden">
                     <p>text</p>
@@ -99,21 +100,20 @@
         </main>
         <footer>
             <h2>Contacts</h2>
-            <form action="email????" method="POST">
-                <lable>
-                    Your name:
-                    <input type="text" name="user-name" placeholder="Your name"> 
+            <form class="contact-form" action="email????" method="POST">
+                <lable for="user-name">
+                    Yuor name:
                 </lable>
+                <input id="user-name" type="text" name="user-name" placeholder="Your name"> 
+                <br>
+                <label for="user-email">
+                    Your email:
+                </label>
+                <input id="user-email" type="text" name="user-email" placeholder="Your email"> 
+                <br>
+                <input type="submit">
             </form>
-            <form>
-                Your email:
-                <input type="text" name="user-email" placeholder="Your email"> 
-            </lable>
-            </form>
-                <lable>
-                    <br>
-                    <input type="submit"> 
-            </form>
+            <p>some contacts ifno...</p>
         </footer>
     </body>
 </html>
