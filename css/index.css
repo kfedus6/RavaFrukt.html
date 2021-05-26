@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 
 :root {
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Kurale', serif;
     --main-color: red;
     --accent-color: blue;
     scroll-behavior: smooth;
@@ -29,7 +29,7 @@ img {
 }
 
 article.product p {
-    font-family:  'DotGothic16', sans-serif;
+    font-family:  'Kurale', serif;
 }
 
 p:hover {
