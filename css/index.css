@@ -18,6 +18,15 @@ header nav .logo {
     text-align: center;
 }
 
+.product-carousel img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.highlight {
+    color: var(--accent-color)
+}
 
 .logo {
     color: var(--main-color);

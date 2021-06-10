@@ -10,6 +10,7 @@
     </head>
     <body>
         <header id="home">
+            <div class="countdown"></div>
             <nav>
                 <div class="logo">
                     RavaFrukt
@@ -32,71 +33,22 @@
             </nav>
         </header>
         <main>
-            <section class="banner";>
+            <section class="banner">
                 <h1>Welcom to<br>RavaFruct</h1>
                 <p class="subheading">Best RavaFrukt shop in the Word!</p>
                 <button>Buy now</button>
                 <hr>
             </section>
+            <div class="clock"></div>
             <h2 id="Products">Products</h2>
-            <div class="products-list">
-                <article class="product">
-                    <h3>Garnet</h3>
-                    <img src="img/granat.jpg" alt="garnet">
-                    <p>text</p>
-                    <div class="buttons">
-                        <button>Info</button>
-                        <button>Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <h3>Grape</h3>
-                    <img src="img/09f40587499b40b87bd4bc7e733a0dad.jpeg" alt="Grape">
-                    <p>We use cookies to help our website function. If you consent, we’ll also use cookies to measure & improve the site, personalise content & ads, and interact with social media</p>
-                    <div class="buttons">
-                        <button>Info</button>
-                        <button>Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <h3>Banana</h3>
-                    <img src="img/1402862895_banana2.jpg" alt="banana">
-                    <p>text</p>
-                    <div class="buttons">
-                        <button>Info</button>
-                        <button>Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <h3>Peach</h3>
-                    <img src="img/depositphotos_3810442-stock-photo-peaches.jpg" alt="peach">
-                    <p>text</p>
-                    <div class="buttons">
-                        <button>Info</button>
-                        <button>Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <h3>Apple Golden</h3>
-                    <img src="img/golden_delicious_500.png" alt="Apple Golden">
-                    <p>text</p>
-                    <div class="buttons">
-                        <button>Info</button>
-                        <button>Buy</button>
-                    </div>
-                </article>
-                <article class="product">
-                    <h3>Cherry</h3>
-                    <img src="img/NTqwdSD2SiXVflQqOfgi.jpg" alt="cherry">
-                    <p>text</p>
-                    <div class="buttons">
-                        <button>Info</button>
-                        <button>Buy</button>
-                    </div>
-                </article>
-
+            <div class="products-carousel">
+                <img src="" alt="carousel imag">
+                <button class="carousel-prev">&lt;</button>
+                <button class="carousel-next">&gt;</button>
             </div>
-
+            <button class="sort-ascending">Sort Ascending</button>
+            <button class="sort-descending">Sort Descending</button>
+            <div class="products-list"></div>
         </main>
         <footer>
             <h2>Contacts</h2>
@@ -115,5 +67,9 @@
             </form>
             <p>some contacts ifno...</p>
         </footer>
+        <script src = "js/index.js"></script>
+        <script src = "js/countdown.js"></script>
+        <script src = "js/products.js"></script>
+        <script src = "js/carousel.js"></script>
     </body>
 </html>
