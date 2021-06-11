@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "title": "Garnet",
+        "image": "granat-2-копия-600x430.jpg",
+        "description": "Garnet",
+        "price": 4.99
+    },
+    {
+        "id": "2",
+        "title": "Banana",
+        "image": "25-prost-banana-preview.jpg",
+        "description": "Banana",
+        "price": 2.99
+    },
+    {
+        "id": "3",
+        "title": "Peach",
+        "image": "peach.jpg.jpg",
+        "description": "Peach",
+        "price": 1.22
+    }
+    
+]

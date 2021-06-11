@@ -1,8 +1,8 @@
 const images = [
-    "granat.jpg",
-    "1402862895_banana2.jpg",
-    "https://placekitten.com/200/287"
-]
+    "granat-2-копия-600x430.jpg",
+    "25-prost-banana-preview.jpg",
+    "peach.jpg.jpg"
+];
 
 let currentSlide = 0;
 
@@ -21,7 +21,7 @@ function prevtSlide() {
     if (currentSlide < 0) currentSlide = images.length - 1;
     showSlide();
 }
-
+showSlide();
 setInterval(nextSlide, 2000);
 
 document.querySelector('.carousel-prev').addEventListener('click', prevtSlide);
